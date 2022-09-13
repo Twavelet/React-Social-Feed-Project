@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import CreatePostForm from './CreatePost/CreatePost';
+import DisplayPosts from './DisplayPosts/DisplayPosts';
 
   
 
@@ -20,6 +21,7 @@ function App() {
   return (
     <div className="App">
      <CreatePostForm addNewPostProperty = {addNewPost}/>
+     <DisplayPosts parentPost = {posts}/>
     </div>
   );
 }
