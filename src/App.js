@@ -20,6 +20,9 @@ function App() {
 
   return (
     <div className="App">
+        <h3 style={{margin: '1em'}}>Social 
+        <medium className='text-muted'>Feed</medium></h3>
+
      <CreatePostForm addNewPostProperty = {addNewPost}/>
      <DisplayPosts parentPost = {posts}/>
     </div>
