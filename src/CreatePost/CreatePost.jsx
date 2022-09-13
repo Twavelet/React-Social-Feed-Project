@@ -24,7 +24,7 @@ const CreatePostForm = (props) => {
             </div>
             
             <div className='form-group'>
-                <label >Date</label>
+                <label >Body</label>
                 <input placeholder='Type your new post here!' type='string' className='form-control' value ={body} onChange ={(event) => setBody(event.target.value)}/>
             </div>
             

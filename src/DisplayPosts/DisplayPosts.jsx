@@ -6,7 +6,7 @@ const DisplayPosts = (props) => {
             {props.parentPost.map((post, index)=>{
                 return (
                     <div key={index}>
-                        <h1>{post.name}</h1>
+                        <h3>{post.name}</h3>
                         <p>{post.body}</p>
                     </div>
                 )
