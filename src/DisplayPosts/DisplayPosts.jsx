@@ -1,19 +1,12 @@
 import React from 'react';
+import PostFeed from '../Post/Post';
 
 const DisplayPosts = (props) => {
     return (
-        <div>
-            {props.parentPost.map((post, index)=>{
-                return (
-                    <div key={index}>
-                        <h3>{post.name}</h3>
-                        <p>{post.body}</p>
-                    </div>
-                )
+            props.parentPost.map((post)=>{
+                return (<PostFeed post ={post}/>)
             })
-            }
-        </div>
-    );
+    )
 }
  
 export default DisplayPosts;
