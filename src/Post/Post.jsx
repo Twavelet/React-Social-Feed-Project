@@ -1,7 +1,13 @@
 // probably gets the CreatePost instantiated in this
 import React from 'react';
+import LikeDislikeButton from '../LikeDislikeButton/LikeDislikeButton';
+
+
+
 
 const PostFeed = (props) => {
+
+    
     return (
         // props.parentPost.map((post)=>{
         //     return(
@@ -9,6 +15,7 @@ const PostFeed = (props) => {
                  <div>
                     {props.post.name}
                     {props.post.body}
+                    <LikeDislikeButton/>
                  </div>
             // </body>
         //     )
@@ -17,7 +24,11 @@ const PostFeed = (props) => {
 }
 
 
+//create like/dislike component 
 
+//inside will be two buttons
+
+//two functions - like and dislike
 
 
 export default PostFeed

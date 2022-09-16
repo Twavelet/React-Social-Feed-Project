@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import NavBar from './NavBar/NavBar';
 import CreatePostForm from './CreatePost/CreatePost';
 import DisplayPosts from './DisplayPosts/DisplayPosts';
-import PostFeed from './Post/Post';
+
 
   
 
@@ -28,7 +28,6 @@ function App() {
     <div className="App">
         <NavBar title1 = {'Social'} title2 = {'Feed'}/>
         <CreatePostForm addNewPostProperty = {addNewPost}/>
-    
         <DisplayPosts parentPost = {posts}/>
     </div>
   );
