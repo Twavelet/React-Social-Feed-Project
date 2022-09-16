@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import NavBar from './NavBar/NavBar';
 import CreatePostForm from './CreatePost/CreatePost';
 import DisplayPosts from './DisplayPosts/DisplayPosts';
-
+import './App.css'
 
   
 
@@ -25,11 +25,22 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <main className='main'>
+      <div>
         <NavBar title1 = {'Social'} title2 = {'Feed'}/>
-        <CreatePostForm addNewPostProperty = {addNewPost}/>
-        <DisplayPosts parentPost = {posts}/>
+      </div>
+    <div className="container-fluid">
+      <div className='mainFeed'>
+        <div className='createPost'>
+          <CreatePostForm addNewPostProperty = {addNewPost}/>
+        </div>
+        <div className='displayPost' >
+          <DisplayPosts parentPost = {posts}/>
+        </div>
+
+        </div>
     </div>
+    </main>
   );
 }
 

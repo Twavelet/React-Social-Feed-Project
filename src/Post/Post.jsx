@@ -1,6 +1,7 @@
 // probably gets the CreatePost instantiated in this
 import React from 'react';
 import LikeDislikeButton from '../LikeDislikeButton/LikeDislikeButton';
+import '../App.css'
 
 
 
@@ -9,17 +10,14 @@ const PostFeed = (props) => {
 
     
     return (
-        // props.parentPost.map((post)=>{
-        //     return(
-        //         <body>
-                 <div>
-                    {props.post.name}
-                    {props.post.body}
+        
+                 <div className='postFeed'>
+                    <h3>
+                        {props.post.name}
+                    </h3>
+                    <body>{props.post.body}</body>
                     <LikeDislikeButton/>
                  </div>
-            // </body>
-        //     )
-        // })
     )
 }
 

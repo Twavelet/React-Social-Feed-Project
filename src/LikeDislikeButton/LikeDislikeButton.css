@@ -1,12 +1,17 @@
-button {
-    color: grey;
-} 
+
 
 
 .like{
     color: green;
+    background-color: white;
+    text-align: right;
+    
+    
 }
 
 .dislike{
     color: red;
+    background-color: white;
+    text-align: right;
 }
+

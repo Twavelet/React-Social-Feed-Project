@@ -1,0 +1,61 @@
+.main{
+    background-color: rgb(231, 246, 241);
+    height: 100%;
+}
+
+
+.container-fluid{
+
+    background-color: rgb(231, 246, 241);
+    height: 100%;
+}
+
+.navBar{
+    background-color: white;
+    width: 100%;
+    
+}
+
+.mainFeed{
+    
+    border: 1px;
+    border-style: solid;
+    border-color: aqua;
+    padding: 1em;
+    margin: 1em;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(231, 246, 241);
+    
+}
+
+.createPost{
+    border: 1px;
+    border-style: solid;
+    border-color: chartreuse;
+    padding: 1em;
+    margin: 1em;
+    background-color: white;
+    
+}
+
+.displayPost{
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(255, 0, 81);
+    
+    margin: 1em;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.postFeed{
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(37, 33, 34);
+    background-color: white;
+    
+    
+
+}

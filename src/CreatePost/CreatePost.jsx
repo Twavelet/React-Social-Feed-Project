@@ -27,8 +27,9 @@ const CreatePostForm = (props) => {
                 <label >Body</label>
                 <input placeholder='Type your new post here!' type='string' className='form-control' value ={body} onChange ={(event) => setBody(event.target.value)}/>
             </div>
-            
+            <div align="right">
             <button type = 'submit' className='btn btn-primary' style={{'margin-top': '1em'}}>Create</button>
+            </div>
         </form>
     );
 }
